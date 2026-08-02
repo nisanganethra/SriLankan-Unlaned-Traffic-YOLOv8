@@ -1,0 +1,8 @@
+*.mp4
+*.avi
+data/raw/*
+data/processed/*
+venv/
+.vscode/
+__pycache__/
+.DS_Store
