@@ -1,0 +1,16 @@
+# Dataset root directory (absolute path or relative to where you run the command)
+path: C:/Users/rasan/SriLankan-Unlaned-Traffic-YOLOv8/data/processed
+
+# Training and validation image directories (relative to 'path' above)
+train: images/train  
+val: images/val      
+
+# Number of classes
+nc: 4
+
+# Class names mapping (index matches class ID in your .txt labels)
+names: 
+  0: car
+  1: bus
+  2: motorcycle
+  3: autorickshaw
